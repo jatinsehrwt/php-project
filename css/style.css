@@ -1,65 +1,162 @@
-.header {
-  padding: 5px;
-  background-color: #1abc9c;
-  box-sizing: border-box;
-  position: fixed;
-  z-index: auto;
-  color: white;
-  width: 100%;
-}
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 
-.header-panel {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.header-panel a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-.header-panel a.right {
-  float: right;
-}
-
-.header-panel a:hover {
-  background-color: #ddd;
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
   color: black;
 }
-
-* {
-  box-sizing: border-box;
+img {
+  width: 100%;
+}
+.offset::before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+/*--- Bootstrap Mobile Gutter Fix --*/
+.row,
+.container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
-.main {
-  background-color: white;
-  padding: 20px;
+/*-- Navigation --*/
+.navbar {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #00ff7d;
 }
 
-@media screen and (max-width: 700 px) {
-  .row {
-    flex-direction: column;
-  }
+/* Landing page */
+.home-inner {
+  background-image: url(../assets/img/coral1.jpg);
 }
 
-@media screen and (max-width: 400 px) {
-  .header-panel a {
-    float: none;
-    width: 100%;
-  }
+/* --- Captions ---*/
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0rem;
+  padding: 0.6rem 1.3rem;
+  font-size: 1.1rem;
 }
 
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
+/*--------- Introduction -------*/
+#intro p {
+  font-size: 1rem;
 }
+
+/* --- Social  --- */
+.jumbotron {
+  padding: 2rem 1rem;
+  border-radius: 0;
+  margin: 0;
+}
+.social a {
+  font-size: 4.5rem;
+  padding: 3rem;
+}
+.fa-facebook:hover {
+  color: red;
+}
+.fa-instagram:hover {
+  color: blue;
+}
+.fa-github:hover {
+  color: green;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+.fa-github {
+  color: #131010;
+}
+
+/* Footer */
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+footer img {
+  width: auto;
+  margin: 1.5rem 0;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

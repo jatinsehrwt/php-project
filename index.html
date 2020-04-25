@@ -1,63 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Tofuu- Learning new language made simple.</title>
-
-    <!-- Meta data -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="description"
-      content="With Tofuu learning language is fun and exciting. "
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Corall - All about coral reefs</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
     />
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Hreflang tags -->
-    <link rel="alternate" href="#" hreflang="x-default" />
-    <link rel="alternate" href="#" hreflang="en" />
-    <link rel="alternate" href="/fr" hreflang="fr" />
-    <link rel="alternate" href="/ja" hreflang="ja" />
-
-    <!-- Icons -->
-    <link rel="icon" sizes="192*192" href="assets/img/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+    <!--CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
   </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <!-- Start Introduction Section -->
+    <div id="home">
+      <!-- Start navigation bar -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><img src="assets/img/corall.png" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <!-- Starting of the body -->
-  <body>
-    <!-- Header of the page -->
-    <div class="header">
-      <div class="header-inner">
-        <!-- Panel connected with the header -->
-        <div class="header-panel">
-          <a href="/" title="Home">
-            <img src="" alt="Tofuu logo" />
-          </a>
-          <a href="#">Courses</a>
-          <a href="#" class="right">Login</a>
-          <a href="#" class="right">Sign-in</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#what">What are coral reefs?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coral-to-reef">From coral to reefs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#where">Where to find?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ecosystem">Ecosystem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conservation">Conservation</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End Navigation -->
+
+      <!-- Start Landing Page Section -->
+      <div class="landing">
+        <div class="home-wrap">
+          <div class="home-inner"></div>
+        </div>
+      </div>
+
+      <div class="caption text-center">
+        <h1>Coral reefs</h1>
+        <h3>Rainforests of the sea</h3>
+        <a class="btn btn-info btn-lg" href="#intro">Get started</a>
+      </div>
+      <!-- End Landing Page Section -->
+    </div>
+    <!-- End Home Section -->
+
+    <!--- Start Introduction -->
+    <div id="intro" class="offset">
+      <div class="col-12 narrow text-justify">
+        <h1 class="text-center">Introduction to coral reefs</h1>
+        <hr class="my-4" />
+        <p class="lead">
+          Coral reefs are the most diverse of all marine ecosystems. They teem
+          with life, with perhaps one-quarter of all ocean species depending on
+          reefs for food and shelter. This is a remarkable statistic when you
+          consider that reefs cover just a tiny fraction (less than one percent)
+          of the earth’s surface and less than two percent of the ocean bottom.
+          Because they are so diverse, coral reefs are often called the
+          rainforests of the sea.
+          <br />
+          Coral reefs are also very important to people. The value of coral
+          reefs has been estimated at 30 billion U.S. dollars and perhaps as
+          much as 172 billion U.S. dollars each year, providing food, protection
+          of shorelines, jobs based on tourism, and even medicines.
+          <br />
+          Unfortunately, people also pose the greatest threat to coral reefs.
+          Overfishing and destructive fishing, pollution, warming, changing
+          ocean chemistry, and invasive species are all taking a huge toll. In
+          some places, reefs have been entirely destroyed, and in many places
+          reefs today are a pale shadow of what they once were.
+        </p>
+      </div>
+    </div>
+    <!-- End Introduction -->
+
+    <!-- Start What are coral reefs -->
+    <div id="what" class="offset">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>What are coral reefs?</h1>
+        </div>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col-md-4 what">
+            <img src="assets/img/desk.png" />
+          </div>
+
+          <div class="col-md-8">
+            <h2>Animal, Vegetable & Mineral</h2>
+            <p class="lead">
+              Corals are related to sea anemones, and they all share the same
+              simple structure, the polyp. The polyp is like a tin can open at
+              just one end: the open end has a mouth surrounded by a ring of
+              tentacles. The tentacles have stinging cells, called nematocysts,
+              that allow the coral polyp to capture small organisms that swim
+              too close. Inside the body of the polyp are digestive and
+              reproductive tissues. Corals differ from sea anemones in their
+              production of a mineral skeleton. Shallow water corals that live
+              in warm water often have another source of food, the zooxanthellae
+              (pronounced zo-o-zan-THELL-ee). These single-celled algae
+              photosynthesize and pass some of the food they make from the sun’s
+              energy to their hosts, and in exchange the coral animal gives
+              nutrients to the algae. It is this relationship that allows
+              shallow water corals to grow fast enough to build the enormous
+              structures we call reefs. The zooxanthellae also provide much of
+              the green, brown, and reddish colors that corals have. The less
+              common purple, blue, and mauve colors found in some corals the
+              coral makes itself.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <h2>Coral Diversity</h2>
+            <p class="lead">
+              In the so-called true stony corals, which compose most tropical
+              reefs, each polyp sits in a cup made of calcium carbonate. Stony
+              corals are the most important reef builders, but organpipe corals,
+              precious red corals, and blue corals also have stony skeletons.
+              There are also corals that use more flexible materials or tiny
+              stiff rods to build their skeletons—the seafans and sea rods, the
+              rubbery soft corals, and the black corals. The family tree of the
+              animals we call corals is complicated, and some groups are more
+              closely related to each other than are others. All but the fire
+              corals (named for their strong sting) are anthozoans, which are
+              divided into two main groups. The hexacorals (including the true
+              stony corals and black corals, as well as the sea anemones) have
+              smooth tentacles, often in multiples of six, and the octocorals
+              (soft corals, seafans, organpipe corals and blue corals) have
+              eight tentacles, each of which has tiny branches running along the
+              sides. All corals are in the phylum Cnidaria, the same as
+              jellyfish.
+            </p>
+          </div>
+
+          <div class="col-md-4 what">
+            <img src="assets/img/desk.png" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 what">
+            <img src="assets/img/desk.png" />
+          </div>
+
+          <div class="col-md-8">
+            <h2>Reproduction</h2>
+            <p class="lead">
+              Corals have multiple reproductive strategies – they can be male or
+              female or both, and can reproduce either asexually or sexually.
+              Asexual reproduction is important for increasing the size of the
+              colony, and sexual reproduction increases genetic diversity and
+              starts new colonies that can be far from the parents.
+            </p>
+
+            <div class="row">
+              <div class="col-6">
+                <h3>
+                  ASEXUAL REPRODUCTION
+                </h3>
+                <p class="lead">
+                  Asexual reproduction results in polyps or colonies that are
+                  clones of each other - this can occur through either budding
+                  or fragmentation. Budding is when a coral polyp reaches a
+                  certain size and divides, producing a genetically identical
+                  new polyp. Corals do this throughout their lifetime. Sometimes
+                  a part of a colony breaks off and forms a new colony. This is
+                  called fragmentation, which can occur as a result of a
+                  disturbance such as a storm or being hit by fishing equipment.
+                </p>
+              </div>
+              <div class="col-6">
+                <h3>
+                  SEXUAL REPRODUCTION
+                </h3>
+                <p class="lead">
+                  In sexual reproduction, eggs are fertilized by sperm, usually
+                  from another colony, and develop into a free-swimming larva.
+                  There are two types of sexual reproduction in corals, external
+                  and internal. Depending on the species and type of
+                  fertilization, the larvae settle on a suitable substrate and
+                  become polyps after a few days or weeks, although some can
+                  settle within a few hours! Most stony corals are broadcast
+                  spawners and fertilization occurs outside the body (external
+                  fertilization). Colonies release huge numbers of eggs and
+                  sperm that are often glued into bundles (one bundle per polyp)
+                  that float towards the surface. Spawning often occurs just
+                  once a year and in some places is synchronized for all
+                  individuals of the same species in an area. This type of mass
+                  spawning usually occurs at night and is quite a spectacle.
+                  Some corals brood their eggs in the body of the polyp and
+                  release sperm into the water. As the sperm sink, polyps
+                  containing eggs take them in and fertilization occurs inside
+                  the body (internal fertilization). Brooders often reproduce
+                  several times a year on a lunar cycle.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End What are coral reefs -->
+
+    <!-- Start From coral to reefs -->
+    <div id="coral-to-reef" class="offset">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>From coral to reefs</h2>
+          <h3>coral growth</h3>
+        </div>
+        <div class="col-md-10">
+          <p class="lead text-justify">
+            Individual coral polyps within a reef are typically very
+            small—usually less than half an inch (or ~1.5 cm) in diameter. The
+            largest polyps are found in mushroom corals , which can be more than
+            5 inches across. But because corals are colonial, the size of a
+            colony can be much larger: big mounds can be the size of a small
+            car, and a single branching colony can cover an entire reef. Reefs,
+            which are usually made up of many colonies, are much bigger still.
+            The largest coral reef is the Great Barrier Reef , which spans 1,600
+            miles (2,600 km) off the east coast of Australia. It is so large
+            that it can be seen from space ! Reefs form when corals grow in
+            shallow water close to the shore of continents or smaller islands.
+            The majority of coral reefs are called fringe reefs because they
+            fringe the coastline of a nearby landmass. But when a coral reef
+            grows around a volcanic island something interesting occurs. Over
+            millions of years, the volcano gradually sinks, as the corals
+            continue to grow, both upward towards the surface and out towards
+            the open ocean. Over time, a lagoon forms between the corals and the
+            sinking island and a barrier reef forms around the lagoon.
+            Eventually, the volcano is completely submerged and only the ring of
+            corals remains. This is called an atoll. Waves may eventually pile
+            sand and coral debris on top of the growing corals in the atoll,
+            creating a strip of land. Many of the Marshall Islands, a system of
+            islands in the Pacific Ocean and home to the Marshallese, are
+            atolls. It takes a long time to grow a big coral colony or a coral
+            reef, because each coral grows slowly. The fastest corals expand at
+            more than 6 inches (15 cm) per year, but most grow less than an inch
+            per year. Reefs themselves grow even more slowly because after the
+            corals die, they break into smaller pieces and become compacted.
+            Individual colonies can often live decades to centuries, and some
+            deep-sea colonies have lived more than 4000 years . One way we know
+            this is because corals lay down annual rings, just as trees do.
+            These skeletons can tell us about what conditions were like hundreds
+            or thousands of years ago. The Great Barrier Reef as it exists today
+            began growing about 20,000 years ago.
+          </p>
+        </div>
+        <div class="col-md-2">
+          <img src="assets/img/mac.png" />
+        </div>
+      </div>
+    </div>
+    <!-- End from coral to reefs -->
+
+    <!-- Start Where -->
+    <div id="where" class="offset">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Where are coral reefs found?</h2>
+        </div>
+        <hr class="my-4" />
+        <div class="col-md-2">
+          <img src="assets/img/bootstrap2.png" />
+        </div>
+        <div class="col-md-10">
+          <p class="lead">
+            Corals are found across the world’s ocean, in both shallow and deep
+            water, but reef-building corals are only found in shallow tropical
+            and subtropical waters. This is because the algae found in their
+            tissues need light for photosynthesis and they prefer water
+            temperatures between 70-85°F (22-29°C). There are also deep-sea
+            corals that thrive in cold, dark water at depths of up to 20,000
+            feet (6,000 m). Both stony corals and soft corals can be found in
+            the deep sea. Deep-sea corals do not have the same algae and do not
+            need sunlight or warm water to survive, but they also grow very
+            slowly. One place to find them is on underwater peaks called
+            seamounts .
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Where -->
+
+    <!-- Start Ecosystem -->
+    <div id="ecosystem" class="offset">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Coral reefs as ecosystem</h2>
+        </div>
+        <hr class="my-4" />
+        <div class="col-md-2">
+          <img src="assets/img/mac.png" />
+        </div>
+        <div class="col-md-10">
+          <p class="lead">
+            Reefs are the big cities of the sea. They exist because the growth
+            of corals matches or exceeds the death of corals – think of it as a
+            race between the construction cranes (new coral skeleton) and the
+            wrecking balls (the organisms that kill coral and chew their
+            skeletons into sand). When corals are babies floating in the
+            plankton, they can be eaten by many animals. They are less tasty
+            once they settle down and secrete a skeleton, but some fish, worms,
+            snails and sea stars prey on adult corals. Crown-of-thorns sea stars
+            are particularly voracious predators in many parts of the Pacific
+            Ocean. Population explosions of these predators can result in a reef
+            being covered with tens of thousands of these starfish, with most of
+            the coral killed in less than a year. Corals also have to worry
+            about competitors. They use the same nematocysts that catch their
+            food to sting other encroaching corals and keep them at bay.
+            Seaweeds are a particularly dangerous competitor, as they typically
+            grow much faster than corals and may contain nasty chemicals that
+            injure the coral as well. Corals do not have to only rely on
+            themselves for their defenses because mutualisms (beneficial
+            relationships) abound on coral reefs. The partnership between corals
+            and their zooxanthellae is one of many examples of symbiosis, where
+            different species live together and help each other. Some coral
+            colonies have crabs and shrimps that live within their branches and
+            defend their home against coral predators with their pincers.
+            Parrotfish, in their quest to find seaweed, will often bite off
+            chunks of coral and will later poop out the digested remains as
+            sand. One kind of goby chews up a particularly nasty seaweed, and
+            even benefits by becoming more poisonous itself.
+          </p>
         </div>
       </div>
     </div>
 
-    <!-- Main content area -->
-    <div class="row">
-      <div class="main">
-        Main content area . Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Maxime a sint nemo ex maiores. Maxime dignissimos consectetur vero
-        quia modi nisi veritatis doloribus voluptatem! Delectus accusantium
-        officia quisquam quaerat cupiditate. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Unde, officia magni quibusdam pariatur,
-        sed modi hic aperiam natus vel non itaque qui atque temporibus in
-        eligendi dolorem obcaecati aspernatur. Nemo?
+    <!-- End Ecosystem -->
+
+    <!-- Start conservation -->
+    <div id="conservation" class="offset">
+      <div class="row threat">
+        <div class="col-12 text-center">
+          <h1>Conservation of coral reefs</h1>
+        </div>
+        <hr class="my-4" />
+        <!-- Start Threat -->
+        <div class="col-12 text-center">
+          <h2>Threats to coral reefs</h2>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Global</h3>
+          <p class="lead">
+            The greatest threats to reefs are rising water temperatures and
+            ocean acidification linked to rising carbon dioxide levels. High
+            water temperatures cause corals to lose the microscopic algae that
+            produce the food corals need—a condition known as coral bleaching.
+            Severe or prolonged bleaching can kill coral colonies or leave them
+            vulnerable to other threats. Meanwhile, ocean acidification means
+            more acidic seawater, which makes it more difficult for corals to
+            build their calcium carbonate skeletons. And if acidification gets
+            severe enough, it could even break apart the existing skeletons that
+            already provide the structure for reefs. Scientists predict that by
+            2085 ocean conditions will be acidic enough for corals around the
+            globe to begin to dissolve. For one reef in Hawaii this is already a
+            reality.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Local</h3>
+          <p class="lead">
+            Unfortunately, warming and more acid seas are not the only threats
+            to coral reefs. Overfishing and overharvesting of corals also
+            disrupt reef ecosystems. If care is not taken, boat anchors and
+            divers can scar reefs. Invasive species can also threaten coral
+            reefs. The lionfish, native to Indo-Pacific waters, has a
+            fast-growing population in waters of the Atlantic Ocean. With such
+            large numbers the fish could greatly impact coral reef ecosystems
+            through consumption of, and competition with, native coral reef
+            animals. Even activities that take place far from reefs can have an
+            impact. Runoff from lawns, sewage, cities, and farms feeds algae
+            that can overwhelm reefs . Deforestation hastens soil erosion, which
+            clouds water—smothering corals.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Coral bleaching</h3>
+          <p class="lead">
+            “Coral bleaching” occurs when coral polyps lose their symbiotic
+            algae, the zooxanthellae. Without their zooxanthellae, the living
+            tissues are nearly transparent, and you can see right through to the
+            stony skeleton, which is white, hence the name coral bleaching. Many
+            different kinds of stressors can cause coral bleaching – water that
+            is too cold or too hot, too much or too little light, or the
+            dilution of seawater by lots of fresh water can all cause coral
+            bleaching. The biggest cause of bleaching today has been rising
+            temperatures caused by global warming. Temperatures more than 2
+            degrees F (or 1 degree C) above the normal seasonal maximimum can
+            cause bleaching. Bleached corals do not die right away, but if
+            temperatures are very hot or are too warm for a long time, corals
+            either die from starvation or disease. In 1998, 80 percent of the
+            corals in the Indian Ocean bleached and 20 percent died.
+          </p>
+        </div>
+        <!-- End Threat -->
+        <div class="row protection">
+          <div class="col-12 text-center">
+            <h2>Protection of coral reefs</h2>
+          </div>
+          <div class="col-12">
+            <p class="lead">
+              There is much that we can do locally to protect coral reefs, by
+              making sure there is a healthy fish community and that the water
+              surrounding the reefs is clean. Well-protected reefs today
+              typically have much healthier coral populations, and are more
+              resilient (better able to recover from natural disasters such as
+              typhoons and hurricanes). Fish play important roles on coral
+              reefs, particularly the fish that eat seaweeds and keep them from
+              smothering corals, which grow more slowly than the seaweeds. Fish
+              also eat the predators of corals, such as crown of thorns
+              starfish. Marine protected areas (MPAs) are an important tool for
+              keeping reefs healthy. Large MPAs protect the Great Barrier Reef
+              and the Northwestern Hawaiian Islands, for example, and in June
+              2012, Australia created the largest marine reserve network in the
+              world . Smaller ones, managed by local communities, have been very
+              successful in developing countries. Clean water is also important.
+              Erosion on land causes rivers to dump mud on reefs, smothering and
+              killing corals. Seawater with too many nutrients speeds up the
+              growth of seaweeds and increases the food for predators of corals
+              when they are developing as larvae in the plankton. Clean water
+              depends on careful use of the land, avoiding too many fertilizers
+              and erosion caused by deforestation and certain construction
+              practices. In the long run, however, the future of coral reefs
+              will depend on reducing carbon dioxide in the atmosphere, which is
+              increasing rapidly due to burning of fossil fuels. Carbon dioxide
+              is both warming the ocean, resulting in coral bleaching, and
+              changing the chemistry of the ocean, causing ocean acidification.
+              Both making it harder for corals to build their skeletons.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End conservation -->
+    <!-- Start Footer  -->
+    <!--- Connect -->
+    <div class="jumbotron row text-center padding">
+      <div class="col-12">
+        <h1>Project developers</h1>
+      </div>
+      <hr class="my-4" />
+      <div class="col-6">
+        <h2>Jatin</h2>
+        <div class="social">
+          <a href="https://www.facebook.com/jatin.sehrawat.391" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/__jatinsehrawat__" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/jatinseh" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-6">
+        <h2>Neha</h2>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
       </div>
     </div>
 
-    <!-- Footer of the page -->
-    <div class="footer">
-      <h2>Footer</h2>
-    </div>
+    <footer class="row text-center padding justify-content-center">
+      <div class="col-md-5">
+        <img src="assets/img/corall.png" />
+      </div>
+      <div class="col-12">
+        <hr class="socket" />
+        <h5>&copy; corall.com</h5>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
   </body>
 </html>
+
+<!--- Check out my courses! -->
+<!-- <div
+  class="udemy-course"
+  style="
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -5px;
+    z-index: 100;
+  "
+>
+  <a
+    href="https://w3newbie.com/courses"
+    target="_blank"
+    style="z-index: 999 !important; cursor: pointer !important;"
+    ><img
+      src="https://www.w3newbie.com/wp-content/uploads/nuno-course-banner.png"
+      style="max-width: 100%; min-width: 100%;"
+  /></a> 
+</div>-->
