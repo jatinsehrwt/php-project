@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+/* Font to be used in the webpage */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
 
 body {
-  overflow-x: hidden;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   color: black;
-}
-img {
-  width: 100%;
 }
 .offset::before {
   display: block;
@@ -20,6 +18,11 @@ img {
 .container-fluid {
   margin-left: 0px !important;
   margin-right: 0px !important;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
 }
 
 /*-- Navigation --*/
@@ -40,12 +43,19 @@ img {
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #00ff7d;
+  color: aqua;
 }
 
 /* Landing page */
 .home-inner {
   background-image: url(../assets/img/coral1.jpg);
+}
+/* Headings of content */
+.content h1 {
+  color: #3f3844;
+}
+.content h2 {
+  color: darkslategray;
 }
 
 /* --- Captions ---*/
@@ -76,10 +86,9 @@ img {
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
 }
-
-/*--------- Introduction -------*/
-#intro p {
-  font-size: 1rem;
+/*---------Increase space between words of paragraphs -------*/
+p {
+  word-spacing: 0.1rem;
 }
 
 /* --- Social  --- */
@@ -90,16 +99,16 @@ img {
 }
 .social a {
   font-size: 4.5rem;
-  padding: 3rem;
+  padding: 2rem;
 }
 .fa-facebook:hover {
-  color: red;
+  color: grey;
 }
 .fa-instagram:hover {
-  color: blue;
+  color: grey;
 }
 .fa-github:hover {
-  color: green;
+  color: grey;
 }
 .fa-facebook {
   color: #3b5998;
@@ -110,7 +119,6 @@ img {
 .fa-github {
   color: #131010;
 }
-
 /* Footer */
 footer {
   background-color: #3f3f3f;
@@ -118,45 +126,10 @@ footer {
   padding-top: 2rem;
 }
 footer img {
-  width: auto;
-  margin: 1.5rem 0;
+  margin: 1rem 2rem;
 }
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
+.socket {
+  color: darkgrey;
+  background-color: darkgrey;
+  border-width: 2px;
 }
-@media (max-width: 768px) {
-}
-@media (max-width: 576px) {
-}
-
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
-
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-  padding: 1rem;
-}
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
