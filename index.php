@@ -19,15 +19,14 @@
     <div class="caption text-center">
       <h1>Coral reefs</h1>
       <h3>Rainforests of the sea</h3>
-      <a class="btn btn-info btn-lg" href="login.php">Get started</a>
+      <a class="btn btn-info btn-lg" href="#intro">Get started</a>
     </div>
     <!-- End Landing Page Section -->
   </div>
   <!-- End Home Section -->
 
-  <!-- Start content -->
   <!-- - Start Introduction -->
-  <div id="intro">
+  <div id="intro" class="offset">
     <div class="row">
       <div class="col-12 text-justify">
         <h1 class="text-center">Introduction to coral reefs</h1>
@@ -54,13 +53,17 @@
           in many places reefs today are a pale shadow of what they once
           were.
         </p>
+        <div class="list-group list-group-flush">
+          <a class="list-group-item list-group-item-action" href="signup.php">
+            <p class="list-group-item-text text-center"><em><u>Sign Up to access full document.</u></em></p>
+          </a>
+        </div>
       </div>
     </div>
   </div>
   <!-- End Introduction -->
-  <!-- End content -->
   <?php include_once 'includes/footer.php'; ?>
-  <?php include_once 'includes/scripts.html'; ?>
 </body>
+<?php include_once 'includes/scripts.html'; ?>
 
 </html>

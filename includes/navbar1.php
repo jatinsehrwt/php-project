@@ -13,6 +13,10 @@
       <li class="nav-item">
         <a class="nav-link " href="#dev">Devs</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link " href="signup.php">Sign Up</a>
+      </li>
+      <a class="btn btn-outline-info my-2 btn-sm" href="login.php">Log-in</a>
     </ul>
   </div>
 </nav>
