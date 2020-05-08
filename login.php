@@ -33,7 +33,7 @@
         die(mysqli_connect_error());
       $u = mysqli_real_escape_string($link, $_POST['inputUsername']);
       $p = mysqli_real_escape_string($link, $_POST['inputPassword']);
-      $sql = "SELECT * FROM user WHERE username='$u' AND password='$p'";
+      $sql = "SELECT * FROM accounts WHERE username='$u' AND password='$p'";
       if ($r = mysqli_query($link, $sql)) {
         if (mysqli_num_rows($r) == 1) {
           $_SESSION['login_user'] = $u;
