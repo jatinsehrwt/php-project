@@ -1,13 +1,15 @@
+<?php
+   include('session.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <?php include_once 'includes/head.html'; ?>
 </head>
-
 <body>
   <?php $page = 'home';
-  include_once 'includes/navbar1.php'; ?>
+  include_once 'includes/navbar.php'; ?>
   <div id="home">
     <!-- Start Landing Page Section -->
     <div class="landing">
@@ -19,7 +21,6 @@
     <div class="caption text-center">
       <h1>Coral reefs</h1>
       <h3>Rainforests of the sea</h3>
-      <a class="btn btn-info btn-lg" href="login.php">Get started</a>
     </div>
     <!-- End Landing Page Section -->
   </div>

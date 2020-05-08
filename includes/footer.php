@@ -67,7 +67,7 @@
       <div class="w-100"></div>
       <div class="col">
         <hr class="socket" />
-        <h5>&copy; corall.com</h5>
+        <h5>&copy; corall.com <?php echo date('Y') ?></h5>
       </div>
     </div>
   </footer>

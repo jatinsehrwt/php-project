@@ -8,7 +8,7 @@
   <div class="collapse navbar-collapse" id="navbarResponsive">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link <?php if ($page == 'home') echo 'active'; ?>" href="index.php">Home</a>
+        <a class="nav-link <?php if ($page == 'home') echo 'active'; ?>" href="welcome.php">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link <?php if ($page == 'what') echo 'active'; ?>" href="what.php">What are coral reefs?</a>
@@ -27,6 +27,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link " href="#dev">Devs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="logout.php">Logout</a>
       </li>
     </ul>
   </div>

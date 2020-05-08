@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <?php include_once 'includes/head.php'; ?>
+  <?php include_once 'includes/head.html'; ?>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
   </div>
   <!-- End Where -->
   <?php include_once 'includes/footer.php'; ?>
-  <?php include_once 'includes/scripts.php'; ?>
+  <?php include_once 'includes/scripts.html'; ?>
 </body>
 
 </html>

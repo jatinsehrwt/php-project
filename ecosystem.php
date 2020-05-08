@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  <?php include_once 'includes/head.php'; ?>
+  <?php include_once 'includes/head.html'; ?>
 </head>
 
-<body >
+<body>
   <?php $page = 'eco';
   include_once 'includes/navbar.php'; ?>
   <!-- Start Ecosystem -->
-  <div id="ecosystem" >
+  <div id="ecosystem">
     <div class="row align-items-center">
       <div class="col-12 text-center">
         <h1>Coral reefs as ecosystem</h1>
@@ -63,7 +63,7 @@
   </div>
   <!-- End Ecosystem -->
   <?php include_once 'includes/footer.php'; ?>
-  <?php include_once 'includes/scripts.php'; ?>
+  <?php include_once 'includes/scripts.html'; ?>
 </body>
 
 </html>
